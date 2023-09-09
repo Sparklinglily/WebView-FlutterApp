@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 
 import 'homePage.dart';
@@ -18,6 +19,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        appBarTheme: AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.black87),
+          color: Colors.orangeAccent,
+          systemOverlayStyle: SystemUiOverlayStyle(
+            statusBarColor: Colors.orangeAccent
+          )
+        ),
         primaryColor: Colors.orangeAccent
       ),
       debugShowCheckedModeBanner: false,
