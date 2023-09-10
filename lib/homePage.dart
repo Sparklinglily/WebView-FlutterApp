@@ -14,8 +14,11 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         //backgroundColor: Colors.orangeAccent,
-        title: Center(child: Text("My Slack Identity",
-          style: TextStyle(color: Colors.black87,fontSize: 29,fontWeight: FontWeight.bold),)),
+        title:  const Center(child: Text("My Slack Identity",
+          style:
+          TextStyle(color: Colors.black87,
+              fontSize: 29,
+              fontWeight: FontWeight.bold),)),
       ),
       backgroundColor: Color(0xFFFFE0B2) ,
 
